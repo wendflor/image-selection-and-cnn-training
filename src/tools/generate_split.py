@@ -165,14 +165,19 @@ def generate_split_for_SUN397(
 
 if __name__ == "__main__":
     # Generate "global" split so the same models are always in the same split (necessary if you want to test different image selection strategies as in our paper)
+    '''
     generate_split_for_scraped_data(
         SCRAPED_DATA_PATH / "04_pre_selection" / "selected", remove_duplicates=True
+    )
+    '''
+    generate_split_for_scraped_data(
+        SCRAPED_DATA_PATH / "05_selection", remove_duplicates=True
     )
 
     # Scraped images
     generate_split_for_scraped_data_according_to_json(
         SCRAPED_DATA_PATH / "05_selection",
-        SCRAPED_DATA_PATH / "04_pre_selection" / "selected" / "splits.json",
+        SCRAPED_DATA_PATH / "05_selection" / "splits.json",
     )
 
     # # Distractors

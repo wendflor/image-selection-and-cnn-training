@@ -1,12 +1,37 @@
 {
-    "path": "data/scraped/05_selection",
+    "path": "/app/data/scraped/05_selection",
     "test": [
-        "box_01.png"
+        "IMG_2426-removebg-preview.png",
+        "IMG_2434-removebg-preview.png",
+        "IMG_2437-removebg-preview.png",
+        "IMG_2441-removebg-preview.png",
+        "IMG_2445-removebg-preview.png",
+        "IMG_2446-removebg-preview.png"
     ],
     "train": [
-        "box_02.png"
+        "IMG_2424-removebg-preview.png",
+        "IMG_2425-removebg-preview.png",
+        "IMG_2427-removebg-preview.png",
+        "IMG_2428-removebg-preview.png",
+        "IMG_2429-removebg-preview.png",
+        "IMG_2430-removebg-preview.png",
+        "IMG_2432-removebg-preview.png",
+        "IMG_2433-removebg-preview.png",
+        "IMG_2435-removebg-preview.png",
+        "IMG_2436-removebg-preview.png",
+        "IMG_2439-removebg-preview.png",
+        "IMG_2440-removebg-preview.png",
+        "IMG_2443-removebg-preview.png",
+        "IMG_2447-removebg-preview.png",
+        "IMG_2448-removebg-preview.png",
+        "IMG_2451-removebg-preview.png"
     ],
     "validation": [
-        "box_03.png"
+        "IMG_2431-removebg-preview.png",
+        "IMG_2438-removebg-preview.png",
+        "IMG_2442-removebg-preview.png",
+        "IMG_2444-removebg-preview.png",
+        "IMG_2449-removebg-preview.png",
+        "IMG_2450-removebg-preview.png"
     ]
 }

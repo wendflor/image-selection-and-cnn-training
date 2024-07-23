@@ -18,4 +18,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install torch==1.10.2 torchvision==0.11.3 --extra-index-url https://download.pytorch.org/whl/cpu
 RUN pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/torch1.10/index.html
 
-ENV PYTHONPATH "${PYTHONPATH}:/app"
+ENV PYTHONPATH="/app"
