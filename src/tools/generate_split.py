@@ -47,7 +47,7 @@ def generate_split_for_scraped_data(
     train_ratio = 1 - test_ratio - validation_ratio
 
     x_train, x_test, y_train, y_test = train_test_split(
-        image_names, ["blue_truck_cabs"] * len(image_names), test_size=1 - train_ratio
+        image_names, ["blue_truck_cab"] * len(image_names), test_size=1 - train_ratio
     )
 
     x_val, x_test, y_val, y_test = train_test_split(
